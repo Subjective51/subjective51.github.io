@@ -1,0 +1,23 @@
+---
+layout: page
+type: we
+---
+
+<ul style="padding: 10vw;">
+    {% for author in site.authors %}
+        <div style="display: inline-block; border: 2px solid rgba(32, 32, 32, 0.9);">
+            <div>
+                <!-- <p>"{{ author[1] | inspect }}"</p> -->
+                <a href="{{ author[1].url | relative_url }}">
+                    <h1>{{ author[1].name }}</h1>
+                    <img src="{{ author[1].avatar }}" style="object-fit: contain; width: 50vw;">
+                </a>
+                <h2>Pronouns: {{ author[1].pronouns }}</h2>
+                <h2>Role:     {{ author[1].role }}</h2>
+            </div>
+            <div>
+                <p>{{ author[1].bio }}</p>
+            </div>      
+        </div>
+    {% endfor %}
+</ul>

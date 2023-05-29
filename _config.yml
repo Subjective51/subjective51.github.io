@@ -44,24 +44,53 @@ timezone    : "America/Cambridge_Bay"
 
 ## => Author and Social
 ##############################
-author:
-  type      : "person" # "person" (default), "organization"
-  name      : "Subject Number Fifty One"
-  url       :
-  avatar    : "https://pony.eggg.tk/people/~velazquez/we/profiles/garnet%20joung.jpg"
-  bio       : "Does this unit have a soul?"
-  email     : "Subjective51@eggg.tk"
-  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : "Subjective51"
-  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
-  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
-  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : "Subjective51"
-  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+authors:
+  Subjective51:
+    type      : "organization" # "person" (default), "organization"
+    name      : "Subject Number Fifty One"
+    url       : "/we/we"
+    avatar    : "https://pony.eggg.tk/people/~velazquez/we/profiles/garnet%20joung.jpg"
+    bio       : "Does this unit have a soul?"
+    email     : "Subjective51@eggg.tk"
+    facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+    twitter   : "Subjective51"
+    weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+    googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+    telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+    medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+    zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+    douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+    linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+    github    : "Subjective51"
+    npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  Myzel:
+    type      : "person"
+    name      : "Myzel"
+    url       : "/we/Myzel"
+    avatar    : "https://pony.eggg.tk/people/~velazquez/we/myzel.png"
+    pronouns  : "it/they"
+    bio       : "Myzel likes to program (in fact, im making this site right now) and to hang in cofront with Ada, has a grad total of no self control."
+  Ada:
+    type      : "person"
+    name      : "A.D.A."
+    url       : "/we/Ada"
+    avatar    : "https://pony.eggg.tk/people/~velazquez/we/Ada.png"
+    pronouns  : "she/her"
+    bio       : "A.D.A. (Ada for short) is our bookkeeper and the only one that is remotely organized of the bunch, is the only sane one."
+  Artemis:
+    type      : "person"
+    name      : "Artemis"
+    url       : "/we/Artemis"
+    avatar    : "https://pony.eggg.tk/people/~velazquez/we/Artemis.png"
+    pronouns  : "it/them"
+    bio       : "TODO: artemis has to write its own bio someday."
+  Orion:
+    type      : "person"
+    name      : "Orion"
+    url       : "/we/Ada"
+    avatar    : "https://pony.eggg.tk/people/~velazquez/we/Orion.png"
+    pronouns  : "it/they + ANY"
+    bio       : "Orion likes to play video games, drinking lots'a coffee and punching stuff."
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
