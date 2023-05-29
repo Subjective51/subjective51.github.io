@@ -45,7 +45,7 @@ timezone    : "America/Cambridge_Bay"
 ## => Author and Social
 ##############################
 authors:
-  Subjective51:
+  Subjective:
     type      : "organization" # "person" (default), "organization"
     name      : "Subject Number Fifty One"
     url       : "/we/we"
