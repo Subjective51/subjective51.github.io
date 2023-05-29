@@ -107,6 +107,10 @@ paths:
   archive : "/archive.html"
   rss     : "/feed.xml"
 
+## => Jekyll Feed
+##############################
+feed:
+  path: /feed.atom
 
 ## => Post
 ##############################

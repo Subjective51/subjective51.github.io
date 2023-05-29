@@ -99,8 +99,12 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-feed
+  jekyll-paginate
   jekyll-seo-tag
+  jekyll-sitemap
   jekyll-text-theme
+  jemoji
 
 BUNDLED WITH
    2.2.19
