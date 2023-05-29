@@ -7,5 +7,5 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       About
-    url: /about.html
+      en      : &EN       About Us
+    url: /we.html

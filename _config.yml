@@ -50,7 +50,7 @@ authors:
     name      : "Subject Number Fifty One"
     url       : "/we/we"
     avatar    : "https://pony.eggg.tk/people/~velazquez/we/profiles/garnet%20joung.jpg"
-    bio       : "Does this unit have a soul?"
+    bio       : "Does this unit have a soul? We are the Subjective system, and we don't fucking know."
     email     : "Subjective51@eggg.tk"
     facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
     twitter   : "Subjective51"
@@ -69,14 +69,14 @@ authors:
     url       : "/we/Myzel"
     avatar    : "https://pony.eggg.tk/people/~velazquez/we/myzel.png"
     pronouns  : "it/they"
-    bio       : "Myzel likes to program (in fact, im making this site right now) and to hang in cofront with Ada, has a grad total of no self control."
+    bio       : "Myzel likes to program in python or rust (in fact, im making this site right now) and to hang in co-front with Ada, has a grad total of no self control."
   Ada:
     type      : "person"
     name      : "A.D.A."
     url       : "/we/Ada"
     avatar    : "https://pony.eggg.tk/people/~velazquez/we/Ada.png"
     pronouns  : "she/her"
-    bio       : "A.D.A. (Ada for short) is our bookkeeper and the only one that is remotely organized of the bunch, is the only sane one."
+    bio       : "A.D.A. (Ada for short) is our BookKeeper, the one who sets most rules and is the only one that is remotely organized of the bunch, is the only sane one."
   Artemis:
     type      : "person"
     name      : "Artemis"
