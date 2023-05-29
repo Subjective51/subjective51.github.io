@@ -9,7 +9,9 @@ type: we
             <!-- <p>"{{ author[1] | inspect }}"</p> -->
             <a href="{{ author[1].url | relative_url }}">
                 <h1 style="text-align: center;">{{ author[1].name }}</h1>
-                <img src="{{ author[1].avatar }}" style="object-fit: contain; width: 50vw; padding: 8px;">
+                <div style="text-align: center;">
+                    <img src="{{ author[1].avatar }}" style="object-fit: contain; width: 50vw; padding: 8px;">
+                </div>
             </a>
             <p style="font-size: 200%; text-align: justify; padding: 10px; overflow-wrap: break-word;">{{ author[1].bio }}</p>
             <p style="font-size: 200%; text-align: center;  padding: 10px; overflow-wrap: break-word;">{{ author[1].pronouns }}</p>
