@@ -58,4 +58,4 @@ And that is ok, for we are not the same.
 
 
 <div style="text-align: right">With passion,</div>
-<div style="text-align: right">**Metal Fire**.</div>
+<div style="text-align: right">Metal Fire</div>

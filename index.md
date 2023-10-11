@@ -8,4 +8,4 @@ layout: home
 
 - <a href="/we"> About page for The Subjective System</a>
 - <a href="/archive"> The list of all blog posts </a>
-- <a href=""> sdasd </a>
+<!-- - <a href=""> sdasd </a> -->
