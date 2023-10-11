@@ -1,8 +1,8 @@
 ---
 layout : article
-title  : "Myzel_Was_Here.graffiti"
-author : Myzel
+title  : "Myzel Was Here"
+author : myzel
 ---
 
-
+<img src="/assets/images/MyzelWasHere.png" />
 

@@ -3,18 +3,24 @@ layout: page
 type: we
 ---
 
-<ul style="padding: 10vw;">
+<div style="padding: 10vw; display: grid">
     {% for author in site.authors %}
-        <li style="display: inline-block; border: 2px solid rgba(32, 32, 32, 0.9); margin: 10px 0; padding: 10px;">
+        {% if author[1].type == "organization" %}
+            <h1 style="text-align: center; font-size: 200%;">System</h1>
+        {% endif %}
+        <div style="display: inline-block; border: 2px solid rgba(32, 32, 32, 0.9); margin: 10px 0; padding: 10px;">
             <!-- <p>"{{ author[1] | inspect }}"</p> -->
             <a href="{{ author[1].url | relative_url }}">
                 <h1 style="text-align: center;">{{ author[1].name }}</h1>
                 <div style="text-align: center;">
-                    <img src="{{ author[1].avatar }}" style="object-fit: contain; width: 50vw; padding: 8px;">
+                    <img src="{{ author[1].avatar }}" style="object-fit: contain; width: 25vw; padding: 8px;">
                 </div>
             </a>
-            <p style="font-size: 200%; text-align: justify; padding: 10px; overflow-wrap: break-word;">{{ author[1].bio }}</p>
-            <p style="font-size: 200%; text-align: center;  padding: 10px; overflow-wrap: break-word;">{{ author[1].pronouns }}</p>
-        </li>
+            <p style="font-size: 150%; text-align: justify; padding: 10px; overflow-wrap: break-word;">{{ author[1].bio }}</p>
+            <p style="font-size: 150%; text-align: center;  padding: 10px; overflow-wrap: break-word;">{{ author[1].pronouns }}</p>
+        </div>
+        {% if author[1].type == "organization" %}
+            <h1 style="text-align: center; font-size: 200%; padding: 10vw;">Members</h1>
+        {% endif %}
     {% endfor %}
-</ul>
+</div>

@@ -2,5 +2,6 @@
 layout: we
 # articles:
 #   excerpt_type: html
-author: Myzel
+author: myzel
+title: "About The Subjective System"
 ---

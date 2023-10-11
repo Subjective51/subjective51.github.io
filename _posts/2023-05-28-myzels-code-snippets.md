@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Myzel keeps misplacing or deleting code snippets"
-author: Myzel
+author: myzel
 ---
 
 This is one that myzel just made and now is getting a post all for its own because i have no other place where to put it and its funnier this way.
